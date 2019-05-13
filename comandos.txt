@@ -1,0 +1,9 @@
+Crea el modelo, el controlador y la migración:
+php artisan make:model Role -m -c -r 
+
+Crea Migracion
+php artisan make:migration create_role_user_table --create=role_user
+
+
+Migrar las migraciones
+php artisan migrate
